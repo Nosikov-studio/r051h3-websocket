@@ -6,6 +6,15 @@
     <title>+++WebSocket Client+++</title>
     <script>
 
+const ws =new WebSocket('ws://85.28.47.165:8888');
+
+ws.addEventListener('open', function(event) {
+    ws.send('Hello Server');
+});
+
+ws.addEventListener('message', function(event) {
+   console.log('Message from server', event.data);
+});
 
 
 
