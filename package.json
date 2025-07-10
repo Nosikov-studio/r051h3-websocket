@@ -1,0 +1,23 @@
+{
+  "name": "r051h3-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nosikov-studio/r051h3-websocket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nosikov-studio/r051h3-websocket/issues"
+  },
+  "homepage": "https://github.com/Nosikov-studio/r051h3-websocket#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
